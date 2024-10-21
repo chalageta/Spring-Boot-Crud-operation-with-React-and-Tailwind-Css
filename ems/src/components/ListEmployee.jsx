@@ -2,6 +2,8 @@ import {useEffect, useState} from 'react';
 import {listEmployees} from '../services/EmployeeService'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 const ListEmployee = () => {
     const [employees, setEmployees] = useState([]);
     useEffect(() =>{
@@ -18,6 +20,7 @@ listEmployees().then((tola) =>{
     <div className='container '>
         <ToastContainer />
       <h1 className='text-center'>List Of Employees</h1>
+      
      <table className='table table-striped border'>
         <thead>
             <tr>
