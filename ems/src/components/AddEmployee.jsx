@@ -42,6 +42,7 @@ const AddEmployee = () => {
     };
 
     const handleSave = () => {
+
         // Call validation function
         if (!validateForm()) {
             toast.error('Please correct the errors in the form.');
@@ -53,7 +54,7 @@ const AddEmployee = () => {
             .then((response) => {
                 console.log(response.data)
                 toast.success('Employee added successfully');
-                navigate('/employees', { state: { success: true } });
+                navigate('/employees', { state: { success: 'added' } });
             })
             .catch((error) => {
                 toast.error('Failed to add employee');
@@ -138,7 +139,7 @@ const AddEmployee = () => {
                         onClick={handleSave}
                         className="py-3.5 px-7 text-sm font-semibold tracking-wider rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
                     >
-                        Sign up
+                        Submit
                     </button>
                 </div>
             </form>

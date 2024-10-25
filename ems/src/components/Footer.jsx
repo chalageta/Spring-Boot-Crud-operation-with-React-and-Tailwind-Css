@@ -60,16 +60,16 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-5">
             <li>
-              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Web Development</a>
+              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>ECC Website</a>
             </li>
             <li>
-              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Pricing</a>
+              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Customers</a>
             </li>
             <li>
               <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Support</a>
             </li>
             <li>
-              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Client Portal</a>
+              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Single Window Portal</a>
             </li>
             <li>
               <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Resources</a>
@@ -87,18 +87,14 @@ const Footer = () => {
           </svg>
           </h4>
           <ul className="space-y-5 mt-6 max-sm:hidden">
-            <li>
-              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Hubspot</a>
-            </li>
+       
             <li>
               <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Integration Services</a>
             </li>
             <li>
               <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Marketing Glossar</a>
             </li>
-            <li>
-              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>UIPath</a>
-            </li>
+          
           </ul>
         </div>
 
@@ -120,7 +116,7 @@ const Footer = () => {
               <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Careers</a>
             </li>
             <li>
-              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Blog</a>
+              <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Announcements</a>
             </li>
             <li>
               <a href='javascript:void(0)' className='hover:text-white text-gray-300 text-sm'>Portfolio</a>
@@ -176,7 +172,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        <p className='text-gray-300 text-sm md:ml-auto'>© ReadymadeUI. All rights reserved.</p>
+        <p className='text-gray-300 text-sm md:ml-auto'>© ECC Software Dev Team. All rights reserved.</p>
       </div>
     </footer>
   )
